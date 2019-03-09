@@ -1,5 +1,5 @@
 # Send-messages-as-slack-bot
-## More info on my [website](https://wissehes.nl/blog/2019/03/09/send-messages-as-slack-bot/(opens in a new tab))
+## More info on my [website](https://wissehes.nl/blog/2019/03/09/send-messages-as-slack-bot/
 ## Install
 1. open `config.php`
 2. set the variable `pass` to your desired password (doesn't have to be from slack)
