@@ -30,6 +30,7 @@ exec ('curl -X POST --data-urlencode "payload={\"channel\": \"'.$channel.'\", \"
 </head>
 <body>
     <center>
+        <h1>Send message as slack bot</h1>
     <form action="index.php" method="post" >
         <label for="channel">Channel</label><br>
         <input type="text" name="channel" placeholder="#channelname"><br>
@@ -40,7 +41,7 @@ exec ('curl -X POST --data-urlencode "payload={\"channel\": \"'.$channel.'\", \"
         <label for="emoji">Emoji Profile Picture</label><br>
         <input type="text" name="emoji" placeholder="emoji profile picture"><br>
         <label for="message">Message</label><br>
-        <input type="long-text" name="message" placeholder="message"><br>
+        <textarea type="long-text" name="message" placeholder="message" ></textarea><br>
         <input type="submit" value="send"><br>
         </center>
 

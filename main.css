@@ -6,7 +6,7 @@ body{
 
 }
 
-input {
+input, textarea {
 text-transform: capitalize;
 width: 250px;
 padding: 1px 2px;
@@ -43,7 +43,7 @@ input[type=submit] {
     color: black;
   }
 
-input:focus {
+input:focus, textarea:focus {
 border: 3px solid #ff0000;
 }
 ::-webkit-input-placeholder {
